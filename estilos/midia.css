@@ -44,3 +44,29 @@
     }
     
 }
+
+@media screen and (min-width: 1201px) {
+
+    body{
+        background-image: linear-gradient(to top, #5f2c82, #49a09d);
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #login > #imagem{
+       float: right;
+       width: 40%;
+        height: 100%;
+    }
+
+    #login > #formulario{
+        float: left;
+        width: 60%;
+    }
+    
+    #login > #formulario > h1{
+        font-size: 1.5em;
+    }
+}
